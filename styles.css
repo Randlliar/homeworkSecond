@@ -1,0 +1,390 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.line{
+    margin-top: 40px;
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+.fa-solid {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80%;
+    line-height: 16px;
+    color: #969696;
+    margin-right: 10px;
+
+}
+
+.text {
+    /*display: flex;*/
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+    align-items: center;
+
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20%;
+    flex-direction: column;
+
+}
+
+.top-header {
+    display: flex;
+    /*flex: 1;*/
+    height: 30%;
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 280px;
+}
+
+.content-theader-right {
+    display: flex;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80%;
+    line-height: 16px;
+    align-items: center;
+    color: #969696;
+}
+
+.content-theader-left {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80%;
+    line-height: 16px;
+    color: #969696;
+
+}
+
+/*BOTTOM HEADER*/
+
+.bottom-header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    background-color: #0f0f0f;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 360px;
+}
+
+.content-bheader-left {
+    display: flex;
+    flex: 1;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 250%;
+    color: #FFFFFF;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.content-bheader-right {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* content */
+.content{
+    height: 100%;
+}
+
+.first-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20%;
+    background: #0f0f0f url("images/Rectangle 3.jpg");
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 810px;
+
+}
+
+.first-middle-content {
+    color: #FFFFFF;
+    border: #FFFFFF 4px solid;
+    height: 320px;
+    width: 320px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.middle-content-text {
+    font-family: 'Stick No Bills', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 35%;
+}
+
+.bottom-middle-content-text {
+    text-align: center;
+    text-decoration: overline;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.first-content-bottom-text{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20%;
+    max-width: 90%;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.second-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    min-height: 730px;
+    /*max-height: 1000px;*/
+}
+
+.second-content-left{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*flex: 1;*/
+    width: 55%; /*1056px*/
+    height: 100%;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    min-width: 360px;
+}
+
+.second-content-image{
+    display: flex;
+    /*margin: auto;*/
+    /*flex-wrap: wrap;*/
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    /*justify-content: space-around;*/
+    flex-direction: column;
+}
+
+.second-content-text{
+    display: flex;
+    margin-top: 40px;
+    height: 20%;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fcfcfc;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-content-image1{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    height: 60%; /*568*/
+    width: 80%; /*844px*/
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    /*flex-direction: column;*/
+
+    gap: 20px;
+    /*min-width: 180px;*/
+}
+
+.image-clock{
+    display: flex;
+    /*flex: 1;*/
+    /*flex-wrap: wrap;*/
+    width: 260px; /*591px/260px*/
+    height: 325px;
+    justify-content: center;
+    /*background-image:  url("images/62050 1.png");*/
+    /*background-repeat: no-repeat;*/
+    background-color: #191B1C;
+    min-width: 260px;
+    min-height: 325px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*gap: 20px;*/
+}
+
+.column{
+    display: flex;
+    flex: 1;
+}
+
+.second-content-right{
+    display: flex;
+    width: 45%;
+    height: 100%;
+    min-width: 360px;
+    background-image:  url("images/Rectangle 8.png");
+    /*background-repeat: no-repeat;*/
+    background-color: #191B1C;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-content-text-right{
+    font-family: 'Stick No Bills', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 45%;
+    color: #FFFFFF;
+
+}
+
+.block-content-second{
+    color: #FFFFFF;
+    border: #FFFFFF 2px solid;
+    height: 30px;
+    width: 82px;
+    align-items: center;
+    margin-bottom: 60px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.content-block-second{
+
+    font-family: 'Stick No Bills', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.third-content{
+    display: flex;
+    flex-wrap: wrap;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-content-left{
+    display: flex;
+    width: 45%;
+    height: 100%;
+    min-width: 360px;
+    background-image:  url("images/Rectangle 9.png");
+    /*background-repeat: no-repeat;*/
+    background-color: #191B1C;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-content-right{
+    display: flex;
+    width: 55%;
+    height: 100%;
+    max-height: 800px;
+    min-width: 360px;
+    /*background-repeat: no-repeat;*/
+    background-color: #000000;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-content-text-top{
+    display: flex;
+    margin-top: 10%;
+    height: 20%;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fcfcfc;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-content-text-middle{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 40%;
+    max-width: 60%;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    color: #FFFFFF;
+}
+
+.fourth-content{
+    height: 35%;
+}
+
+.fifth-content{
+    height: 10%;
+}
